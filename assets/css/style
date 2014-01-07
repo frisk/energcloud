@@ -1,0 +1,46 @@
+.cust-container{
+    width:980px;
+}
+#header {
+    width: 980px;
+    margin: 0px auto;
+}
+#signin{
+    display:inline-block;
+    text-align:right;
+    width:500px;
+    vertical-align:top;
+}
+.cust-navbar{
+    margin: 0px;
+}
+.cust-navbar-inner{
+    min-height: 70px;
+}
+#cust-logo{
+    width: 125px;
+    position: absolute;
+    z-index: 100;
+    padding-left: 30px;
+}
+#cust-company-name{
+    padding-left: 150px;
+    margin-top:15px;
+    display:inline-block;
+    font-size: 36pt;
+    font-family: 'Ubuntu', sans-serif;
+}
+.cust-collapse{
+    margin-top:10px;
+    text-align:right;
+    margin: 0px auto;
+    width: 980px;
+}
+.cust-carousel{
+    margin-bottom: 0px;
+}
+.icon{
+    width:60px;
+    margin-right: 40px;
+    margin-top: 5px;
+}
