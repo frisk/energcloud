@@ -8,15 +8,19 @@
 	 */
  
 	// The commands
+	;
+
 	$commands = array(
 		'echo $PWD',
 		'whoami',
 		'git pull',
-		'git status',
-		'git submodule sync',
-		'git submodule update',
-		'git submodule status',
+		'git status'
 	);
+	
+	if($_SERVER['HTTP_HOST'] == 'test.energcloud.com')
+	{
+		$commands[] = 'git checkout test';
+	}
  
 	// Run the commands for output
 	$output = '';
